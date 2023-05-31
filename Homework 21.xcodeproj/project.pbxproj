@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E41D62D02A15246400D88095 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E41D62CF2A15246400D88095 /* Alamofire */; };
+		E42861182A1B575B004741F9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42861172A1B575B004741F9 /* NetworkService.swift */; };
+		E428611A2A1B577C004741F9 /* CardFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42861192A1B577C004741F9 /* CardFetcher.swift */; };
+		E428611D2A1B57CC004741F9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E428611C2A1B57CC004741F9 /* Card.swift */; };
+		E428611F2A1B62D0004741F9 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E428611E2A1B62D0004741F9 /* CardCell.swift */; };
+		E42861222A1B6319004741F9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E42861212A1B6319004741F9 /* SnapKit */; };
+		E428612C2A1B651A004741F9 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E428612B2A1B651A004741F9 /* CardsView.swift */; };
+		E428612E2A1B65C3004741F9 /* CardsTableView+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E428612D2A1B65C3004741F9 /* CardsTableView+DataSource.swift */; };
+		E42861302A1B6636004741F9 /* CardsTableView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E428612F2A1B6636004741F9 /* CardsTableView+Delegate.swift */; };
 		E475BD6F2A14F59000BD7691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E475BD6E2A14F59000BD7691 /* AppDelegate.swift */; };
 		E475BD712A14F59000BD7691 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E475BD702A14F59000BD7691 /* SceneDelegate.swift */; };
-		E475BD732A14F59000BD7691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E475BD722A14F59000BD7691 /* ViewController.swift */; };
-		E475BD762A14F59000BD7691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E475BD742A14F59000BD7691 /* Main.storyboard */; };
+		E475BD732A14F59000BD7691 /* CardsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E475BD722A14F59000BD7691 /* CardsController.swift */; };
 		E475BD782A14F59200BD7691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E475BD772A14F59200BD7691 /* Assets.xcassets */; };
 		E475BD7B2A14F59200BD7691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E475BD792A14F59200BD7691 /* LaunchScreen.storyboard */; };
+		E4D9B86F2A2751ED00F36190 /* Cards.json in Resources */ = {isa = PBXBuildFile; fileRef = E4D9B86E2A2751ED00F36190 /* Cards.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E42861172A1B575B004741F9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E42861192A1B577C004741F9 /* CardFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFetcher.swift; sourceTree = "<group>"; };
+		E428611C2A1B57CC004741F9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E428611E2A1B62D0004741F9 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		E428612B2A1B651A004741F9 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		E428612D2A1B65C3004741F9 /* CardsTableView+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardsTableView+DataSource.swift"; sourceTree = "<group>"; };
+		E428612F2A1B6636004741F9 /* CardsTableView+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardsTableView+Delegate.swift"; sourceTree = "<group>"; };
 		E475BD6B2A14F59000BD7691 /* Homework 21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 21.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E475BD6E2A14F59000BD7691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E475BD702A14F59000BD7691 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E475BD722A14F59000BD7691 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E475BD752A14F59000BD7691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E475BD722A14F59000BD7691 /* CardsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsController.swift; sourceTree = "<group>"; };
 		E475BD772A14F59200BD7691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E475BD7A2A14F59200BD7691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E475BD7C2A14F59200BD7691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4D9B86E2A2751ED00F36190 /* Cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Cards.json; path = "../../../../Homework 21/Homework 21/Resources/Cards.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +47,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41D62D02A15246400D88095 /* Alamofire in Frameworks */,
+				E42861222A1B6319004741F9 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E42861232A1B63A2004741F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E475BD772A14F59200BD7691 /* Assets.xcassets */,
+				E475BD7C2A14F59200BD7691 /* Info.plist */,
+				E475BD792A14F59200BD7691 /* LaunchScreen.storyboard */,
+				E4D9B86E2A2751ED00F36190 /* Cards.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E42861242A1B63E2004741F9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E42861272A1B6418004741F9 /* App */,
+				E42861262A1B6405004741F9 /* Scene */,
+				E42861252A1B63F7004741F9 /* Extensions */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E42861252A1B63F7004741F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E428612D2A1B65C3004741F9 /* CardsTableView+DataSource.swift */,
+				E428612F2A1B6636004741F9 /* CardsTableView+Delegate.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E42861262A1B6405004741F9 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E48D07C82A18D70C009FA0E4 /* Networking */,
+				E428612A2A1B646E004741F9 /* Models */,
+				E42861292A1B6466004741F9 /* Controller */,
+				E42861282A1B644C004741F9 /* View */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		E42861272A1B6418004741F9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E475BD6E2A14F59000BD7691 /* AppDelegate.swift */,
+				E475BD702A14F59000BD7691 /* SceneDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		E42861282A1B644C004741F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E428612B2A1B651A004741F9 /* CardsView.swift */,
+				E428611E2A1B62D0004741F9 /* CardCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E42861292A1B6466004741F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E475BD722A14F59000BD7691 /* CardsController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E428612A2A1B646E004741F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E428611C2A1B57CC004741F9 /* Card.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		E475BD622A14F59000BD7691 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +149,19 @@
 		E475BD6D2A14F59000BD7691 /* Homework 21 */ = {
 			isa = PBXGroup;
 			children = (
-				E475BD6E2A14F59000BD7691 /* AppDelegate.swift */,
-				E475BD702A14F59000BD7691 /* SceneDelegate.swift */,
-				E475BD722A14F59000BD7691 /* ViewController.swift */,
-				E475BD742A14F59000BD7691 /* Main.storyboard */,
-				E475BD772A14F59200BD7691 /* Assets.xcassets */,
-				E475BD792A14F59200BD7691 /* LaunchScreen.storyboard */,
-				E475BD7C2A14F59200BD7691 /* Info.plist */,
+				E42861242A1B63E2004741F9 /* Sources */,
+				E42861232A1B63A2004741F9 /* Resources */,
 			);
 			path = "Homework 21";
+			sourceTree = "<group>";
+		};
+		E48D07C82A18D70C009FA0E4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E42861172A1B575B004741F9 /* NetworkService.swift */,
+				E42861192A1B577C004741F9 /* CardFetcher.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +180,10 @@
 			dependencies = (
 			);
 			name = "Homework 21";
+			packageProductDependencies = (
+				E41D62CF2A15246400D88095 /* Alamofire */,
+				E42861212A1B6319004741F9 /* SnapKit */,
+			);
 			productName = "Homework 21";
 			productReference = E475BD6B2A14F59000BD7691 /* Homework 21.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +212,10 @@
 				Base,
 			);
 			mainGroup = E475BD622A14F59000BD7691;
+			packageReferences = (
+				E41D62CE2A15246400D88095 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E42861202A1B6319004741F9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = E475BD6C2A14F59000BD7691 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +232,7 @@
 			files = (
 				E475BD7B2A14F59200BD7691 /* LaunchScreen.storyboard in Resources */,
 				E475BD782A14F59200BD7691 /* Assets.xcassets in Resources */,
-				E475BD762A14F59000BD7691 /* Main.storyboard in Resources */,
+				E4D9B86F2A2751ED00F36190 /* Cards.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +243,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E475BD732A14F59000BD7691 /* ViewController.swift in Sources */,
+				E428611F2A1B62D0004741F9 /* CardCell.swift in Sources */,
+				E475BD732A14F59000BD7691 /* CardsController.swift in Sources */,
+				E428612E2A1B65C3004741F9 /* CardsTableView+DataSource.swift in Sources */,
+				E428612C2A1B651A004741F9 /* CardsView.swift in Sources */,
+				E428611D2A1B57CC004741F9 /* Card.swift in Sources */,
 				E475BD6F2A14F59000BD7691 /* AppDelegate.swift in Sources */,
+				E42861302A1B6636004741F9 /* CardsTableView+Delegate.swift in Sources */,
+				E42861182A1B575B004741F9 /* NetworkService.swift in Sources */,
 				E475BD712A14F59000BD7691 /* SceneDelegate.swift in Sources */,
+				E428611A2A1B577C004741F9 /* CardFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E475BD742A14F59000BD7691 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E475BD752A14F59000BD7691 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E475BD792A14F59200BD7691 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,10 +395,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U94RDSMM8C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Homework 21/Info.plist";
+				INFOPLIST_FILE = "Homework 21/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,10 +422,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U94RDSMM8C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Homework 21/Info.plist";
+				INFOPLIST_FILE = "Homework 21/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +462,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E41D62CE2A15246400D88095 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E42861202A1B6319004741F9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E41D62CF2A15246400D88095 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E41D62CE2A15246400D88095 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E42861212A1B6319004741F9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E42861202A1B6319004741F9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E475BD632A14F59000BD7691 /* Project object */;
 }
